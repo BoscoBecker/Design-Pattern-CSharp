@@ -2,10 +2,10 @@ using FactoryMethod.Product;
 
 namespace FactoryMethod.Creator;
 
-public class ConcreteScreenSmartTVCreator : ScreenCreator
+public class ScreenSmartTvCreator : ScreenCreator
 {
     public override Screen CreateScreen()
     {
-        throw new NotImplementedException();
+        return new ScreenSmartTV();
     }
 }

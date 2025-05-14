@@ -1,6 +1,6 @@
 namespace FactoryMethod.Product;
 
-public class ScreenSmartwatch
+public class ScreenSmartwatch() : Screen("Red",";-)")
 {
     
 }

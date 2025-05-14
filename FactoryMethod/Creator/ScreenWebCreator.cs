@@ -2,10 +2,10 @@ using FactoryMethod.Product;
 
 namespace FactoryMethod.Creator;
 
-public class ConcreteScreenWebCreator : ScreenCreator
+public class ScreenWebCreator : ScreenCreator
 {
     public override Screen CreateScreen()
     {
-        throw new NotImplementedException();
+        return new ScreenWeb();
     }
 }

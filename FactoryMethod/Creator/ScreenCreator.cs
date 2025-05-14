@@ -1,6 +1,9 @@
+using FactoryMethod.Product;
+
 namespace FactoryMethod.Creator;
 
-public class ScreenCreator
+public abstract class ScreenCreator
 {
-    
+    public abstract Screen CreateScreen();
+
 }
