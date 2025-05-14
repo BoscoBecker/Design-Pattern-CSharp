@@ -38,15 +38,10 @@ This project was created to demonstrate, in a didactic way, how to apply the mos
 ```
 /
 ├── Patterns/                  # Source code organized by category
-│   ├── Creational/            # Creational Patterns
 │   │   ├── FactoryMethod/
 │   │   ├── Singleton/
-│   │   └── …
-│   ├── Structural/            # Structural Patterns
 │   │   ├── Adapter/
 │   │   ├── Decorator/
-│   │   └── …
-│   └── Behavioral/            # Behavioral Patterns
 │       ├── Strategy/
 │       ├── Observer/
 │       └── …
