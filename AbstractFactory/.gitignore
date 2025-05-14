@@ -1,0 +1,41 @@
+# Build
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# MonoDevelop
+*.pidb
+
+# VS Code
+.vscode/
+
+# Rider
+.idea/
+
+# NuGet
+*.nupkg
+packages/
+*.snupkg
+project.lock.json
+project.fragment.lock.json
+
+# Logs
+*.log
+
+# Others
+*.db
+*.DS_Store
+*.bak
+*.tmp
+
+# ASP.NET
+wwwroot/node_modules/
+node_modules/
+.env
+.env.*
+appsettings.*.json
