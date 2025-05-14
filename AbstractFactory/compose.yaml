@@ -1,0 +1,7 @@
+﻿services:
+  abstractfactory:
+    image: abstractfactory
+    build:
+      context: .
+      dockerfile: Dockerfile
+
