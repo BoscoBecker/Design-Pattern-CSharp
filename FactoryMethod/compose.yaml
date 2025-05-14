@@ -1,0 +1,7 @@
+﻿services:
+  factorymethod:
+    image: factorymethod
+    build:
+      context: .
+      dockerfile: Dockerfile
+
