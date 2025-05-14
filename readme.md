@@ -12,14 +12,13 @@ This repository showcases practical implementations of **Design Patterns** in C#
 ## 📋 Table of Contents
 
 1. [Overview](#overview)
-2. [Project Structure](#project-structure)
-3. [Implemented Patterns](#implemented-patterns)
-4. [How to Build and Run](#how-to-build-and-run)
+2. [Implemented Patterns](#implemented-patterns)
+3. [How to Build and Run](#how-to-build-and-run)
     - [Locally](#locally)
     - [Via Docker](#via-docker)
-5. [Usage Example](#usage-example)
-6. [Contributing](#contributing)
-7. [License](#license)
+4. [Usage Example](#usage-example)
+5. [Contributing](#contributing)
+6. [License](#license)
 
 ---
 
@@ -33,30 +32,6 @@ This project was created to demonstrate, in a didactic way, how to apply the mos
 
 ---
 
-## 🗂️ Project Structure
-
-```
-/
-├── Patterns/                  # Source code organized by category
-│   ├── Creational/            # Creational Patterns
-│   │   ├── FactoryMethod/
-│   │   ├── Singleton/
-│   │   └── …
-│   ├── Structural/            # Structural Patterns
-│   │   ├── Adapter/
-│   │   ├── Decorator/
-│   │   └── …
-│   └── Behavioral/            # Behavioral Patterns
-│       ├── Strategy/
-│       ├── Observer/
-│       └── …
-├── Program.cs                 # Executes each example in the console
-├── Dockerfile                 # Multi‑stage build for container
-├── docker-compose.yml         # Orchestrates the service with Docker Compose
-└── README.md                  # This file
-```
-
----
 
 ## 🧩 Implemented Patterns
 
