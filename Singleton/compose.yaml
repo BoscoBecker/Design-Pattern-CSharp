@@ -1,0 +1,7 @@
+﻿services:
+  singleton:
+    image: singleton
+    build:
+      context: .
+      dockerfile: Dockerfile
+
