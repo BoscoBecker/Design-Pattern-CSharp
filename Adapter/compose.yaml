@@ -1,0 +1,7 @@
+﻿services:
+  adapter:
+    image: adapter
+    build:
+      context: .
+      dockerfile: Dockerfile
+
