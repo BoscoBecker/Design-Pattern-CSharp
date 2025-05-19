@@ -1,0 +1,7 @@
+﻿services:
+  bridge:
+    image: bridge
+    build:
+      context: .
+      dockerfile: Dockerfile
+
