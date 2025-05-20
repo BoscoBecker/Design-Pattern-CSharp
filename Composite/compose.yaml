@@ -1,0 +1,7 @@
+﻿services:
+  composite:
+    image: composite
+    build:
+      context: .
+      dockerfile: Dockerfile
+
